@@ -28,6 +28,7 @@ conda env create -f environment.yml
 1. Follow the python notebook series with prefix "Step" in the folder "Master_Thesis" and follow the order of step numbers.
 
 Note:
-The size of csv files were greater than 50 MB, so to uplaod it to gtihub they have been converted to extension "pkl"
+The size of csv files were greater than 50 MB, so to upload it to gtihub they have been converted to extension "pkl".
+
 The python notebook in folder Master/Thesis with prefix "Step 0" can be used to convert "pkl" files to "csv" files.
 The python notebook in folder Master/Thesis with prefix "Step 6" can be used to convert "csv" files to "pkl" files.
