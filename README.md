@@ -17,8 +17,17 @@ conda env create -f environment.yml
 3. Open the menu of the added dump file and choose option "Create new DBMS from dump".
 
 
-
 # Instructions for replicating the neo4dash Dashboard
 
 1. Please download the neo4dash from the graph app gallery. NeoDash will automatically connect to your active database when launched. 
 2. Open neo4dash, and click open existing dashboard and select the dashboard. 
+
+
+# Instructions for replicating the whole process from collecting data from sec-api to graph creation and analysis
+
+1. Follow the python notebook series with prefix "Step" in the folder "Master_Thesis" and follow the order of step numbers.
+
+Note:
+The size of csv files were greater than 50 MB, so to uplaod it to gtihub they have been converted to extension "pkl"
+The python notebook in folder Master/Thesis with prefix "Step 0" can be used to convert "pkl" files to "csv" files.
+The python notebook in folder Master/Thesis with prefix "Step 6" can be used to convert "csv" files to "pkl" files.
