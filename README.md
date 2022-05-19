@@ -5,7 +5,7 @@ Visualizing the financial holdings as a graph and finding the web of interconnec
 13F filings data is extracted from the U.S. Securities and Exchange Commission(SEC) website for the last quarter of 2021 and is used for making the graphs. Form 13F discloses the equity holdings and can provide insights into what the money is doing in the market.
 
 
-# Instructions for Cloning the environment
+# Instructions for cloning the environment
 Run the following command in anaconda prompt to make a virtual environemt with the required dependencies:
 
 conda env create -f environment.yml
