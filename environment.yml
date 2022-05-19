@@ -163,4 +163,4 @@ dependencies:
     - seaborn==0.11.2
     - sec-api==1.0.9
     - tabulate==0.8.9
-prefix: C:\Users\prern\anaconda3\envs\Master_Thesis
+prefix: anaconda3\envs\Master_Thesis
