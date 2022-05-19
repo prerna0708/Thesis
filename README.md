@@ -25,9 +25,9 @@ conda env create -f environment.yml
 
 # Instructions for replicating the whole process from collecting data from sec-api to graph creation and analysis
 
-1. Follow the python notebook series with prefix "Step" in the folder "Master_Thesis" and follow the order of step numbers.
+Follow the python notebook series with prefix "Step" in the folder "Master_Thesis" and follow the order of step numbers.
 
-Note:
+## Note:
 The size of csv files were greater than 50 MB, so to upload it to gtihub they have been converted to extension "pkl".
 
 The python notebook in folder Master/Thesis with prefix "Step 0" can be used to convert "pkl" files to "csv" files.
