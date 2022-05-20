@@ -6,7 +6,7 @@ Visualizing the financial holdings as a graph and finding the web of interconnec
 
 
 # Instructions for cloning the environment
-Run the following command in anaconda prompt to make a virtual environemt with the required dependencies:
+Run the following command in anaconda prompt to make a virtual environment with the required dependencies:
 
 conda env create -f environment.yml
 
