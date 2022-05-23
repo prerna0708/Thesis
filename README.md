@@ -2,7 +2,7 @@
 
 Visualizing the financial holdings as a graph and finding the web of interconnected financial bodies which have the potential of cascading risk in the financial system in case of the collapse of one or more companies. The thesis aims to represent the U.S. financial market as a network and apply graph algorithms to the constructed networks.
 
-13F filings data is extracted from the U.S. Securities and Exchange Commission(SEC) website for the last quarter of 2021 and is used for making the graphs. Form 13F discloses the equity holdings and can provide insights into what the money is doing in the market.
+13F filings data is extracted from the U.S. Securities and Exchange Commission (SEC) website for the last quarter of 2021 and is used for making the graphs. Form 13F discloses the equity holdings and can provide insights into what the money is doing in the market.
 
 
 # Instructions for cloning the environment
