@@ -31,7 +31,7 @@ conda env create -f environment.yml
 1. Replicate the environment using the environment.yml file. Get API key from [sec-api](https://sec-api.io/) to collect 13F fillings data 
 2. Follow the python notebook series with prefix "Step" in the folder "Master_Thesis" and follow the order of step numbers till Step 2.2. 
 3. The file "Matched.csv" needs to cleaned manually in MS Excel. After cleaning the file follow the steps till step 3.1.
-4. Open Neo4j and add a Local DBMS named GraphDBMS(version=4.2.15) and add the plugin Graph data science library.
+4. Open Neo4j and add a Local DBMS named GraphDBMS(version=4.2.15) and add the plugin Graph data science library. Add the following statement into the settings file of your DBMS if it is not present. ```sh dbms.security.procedures.unrestricted=jwt.security.*,gds.*,apoc.* ```
 5. Click on the menu dots of your database and go to the option "Open Folder" and choose "Import". This will open the file location of the import folder of your database.
 6. Place the Nodes_options, Nodes_wo_options, Relationships_options and Relationships_wo_options files in the import folder.
 7. Run the queries mentioned in Step 3.2 and Step 3.3 in 2 separate databases in neo4j.  
