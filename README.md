@@ -32,7 +32,9 @@ conda env create -f environment.yml
 2. Follow the python notebook series with prefix "Step" in the folder "Master_Thesis" and follow the order of step numbers till Step 2.2. 
 3. The file "Matched.csv" needs to cleaned manually in MS Excel. After cleaning the file follow the steps till step 3.1.
 4. Open Neo4j and add a Local DBMS named GraphDBMS(version=4.2.15) and add the plugin Graph data science library. Add the following statement into the settings file of your DBMS if it is not present.
-```sh dbms.security.procedures.unrestricted=jwt.security.*,gds.*,apoc.* ```
+```sh 
+dbms.security.procedures.unrestricted=jwt.security.*,gds.*,apoc.* 
+```
 
 5. Click on the menu dots of your database and go to the option "Open Folder" and choose "Import". This will open the file location of the import folder of your database.
 6. Place the Nodes_options, Nodes_wo_options, Relationships_options and Relationships_wo_options files in the import folder.
