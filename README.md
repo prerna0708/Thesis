@@ -22,13 +22,20 @@ conda env create -f environment.yml
 
 # Instructions for replicating the neo4dash Dashboard
 
-1. Please download the neo4dash from the graph app gallery. NeoDash will automatically connect to your active database when launched. 
-2. Open neo4dash, and click open existing dashboard and select the dashboard. 
+1. Please download the NeoDash from the graph app gallery. NeoDash will automatically connect to your active database when launched. 
+2. Open NeoDash, and click open existing dashboard and select the dashboard. 
 
 
 # Instructions for replicating the whole process from collecting data from sec-api to graph creation and analysis
 
-Follow the python notebook series with prefix "Step" in the folder "Master_Thesis" and follow the order of step numbers.
+1. Replicate the environment using the environment.yml file. Get API key from [sec-api](https://sec-api.io/) to collect 13F fillings data 
+2. Follow the python notebook series with prefix "Step" in the folder "Master_Thesis" and follow the order of step numbers till Step 2.2. 
+3. The file "Matched.csv" needs to cleaned manually in MS Excel. After cleaning the file follow the steps till step 3.1.
+4. Open Neo4j and add a Local DBMS named GraphDBMS(version=4.2.15) and add the plugin Graph data science library.
+5. Click on the menu dots of your database and go to the option "Open Folder" and choose "Import". This will open the file location of the import folder of your database.
+6. Place the Nodes_options, Nodes_wo_options, Relationships_options and Relationships_wo_options files in the import folder.
+7. Run the queries mentioned in Step 3.2 and Step 3.3 in 2 separate databases in neo4j.  
+8. Run the steps from 3.4 till the end. 
 
 ## Note:
 The size of csv files were greater than 50 MB, so to upload it to gtihub they have been converted to extension "pkl".
