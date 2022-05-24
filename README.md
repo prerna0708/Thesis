@@ -20,7 +20,7 @@ conda env create -f environment.yml
 3. Open the menu of the added dump file and choose option "Create new DBMS from dump".
 
 
-# Instructions for replicating the neo4dash Dashboard
+# Instructions for replicating the NeoDash Dashboard
 
 1. Please download the NeoDash from the graph app gallery. NeoDash will automatically connect to your active database when launched. 
 2. Open NeoDash, and click open existing dashboard and select the dashboard. 
